@@ -41,6 +41,40 @@ const styles = StyleSheet.create({
   },
 });
 ```
+## ⚙️ Explicación de la implementación
 
+children → permite pasar elementos dinámicos dentro de la tarjeta (texto, iconos, avatares).
+
+style → permite añadir estilos adicionales desde el componente padre.
+
+Se usa un contenedor View con estilos combinados ([styles.card, style]) para permitir flexibilidad sin perder consistencia visual.
+
+Los estilos aplicados aseguran:
+
+Fondo uniforme (backgroundColor)
+
+Bordes redondeados (borderRadius)
+
+Sombras (shadow y elevation)
+
+Espaciado interno (padding)
+
+---
+## 📲 Uso dentro de BizumScreen
+---
+```tsx
+<View style={styles.cardsRow}>
+  <ActionCard style={[styles.card, { flex: 1 }]}>
+    <Ionicons name="trending-up" size={30} color={colors.primary} />
+    <Text style={styles.cardTitle}>Nuevo envío</Text>
+  </ActionCard>
+
+  <ActionCard style={[styles.card, { flex: 1 }]}>
+    <Avatar initials={favoriteContact.initials} size={56} />
+    <Text style={styles.contactName}>{favoriteContact.name}</Text>
+  </ActionCard>
+</View>
+```
+Ambas tarjetas comparten el mismo estilo base (ActionCard) pero muestran contenido distinto según los children.
 <p align="center"> <img src="./img/3.png" alt="Captura del componente propio" width="4200"> </p> ```
 
