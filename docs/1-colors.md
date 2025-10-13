@@ -31,5 +31,5 @@ export default {
     
 *   Mantenimiento más sencillo y coherencia visual.
 
+![captura colores](img/1.png)
 
-![captura colore](1.png)
