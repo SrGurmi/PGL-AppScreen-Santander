@@ -31,9 +31,11 @@ Los apartados solicitados en la práctica se encuentran organizados dentro de la
 ## 🖼️ Comparativa visual
 
 **Captura original (Bizum Santander):**
+
 ![captura original](./docs/img/captura-original.png)
 
 **Resultado en la app desarrollada:**
+
 ![captura desarrollada](./docs/img/captura-final.png)
 
 ---
