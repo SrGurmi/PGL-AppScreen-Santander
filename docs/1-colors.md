@@ -32,4 +32,4 @@ export default {
 *   Mantenimiento más sencillo y coherencia visual.
 
 
-![captura colore](./img/1.png)
+![captura colore](docs/img/1.png)
