@@ -31,6 +31,7 @@ const styles = StyleSheet.create({
         width: '48%',
         minHeight: 180,
         ...shadows.card,
+        marginTop: 10
     },
     date: {
         color: colors.primary,

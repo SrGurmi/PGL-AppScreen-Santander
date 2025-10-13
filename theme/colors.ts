@@ -1,5 +1,5 @@
 export default {
-    primary: '#cd0100',      // rojo principal
+    primary: '#cd0100',
     primaryDark: '#B10018',
     accent: '#FFCC00',
     bg: '#FFFFFF',
