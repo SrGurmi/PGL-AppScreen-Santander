@@ -22,4 +22,14 @@ export default {
   link: '#167371',
 };
 
-![captura desarrollada](./docs/img/1.png
+💡 Ventajas
+-----------
+
+*   Centralización de todos los colores en un único archivo.
+    
+*   Reutilización en todos los componentes de la interfaz.
+    
+*   Mantenimiento más sencillo y coherencia visual.
+
+
+![captura desarrollada](./docs/img/1.png)
