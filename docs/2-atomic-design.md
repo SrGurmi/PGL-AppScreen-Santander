@@ -60,4 +60,4 @@ export default function BizumScreen() {
 }
 ```
 
-<p align="center"> <img src="./img/1.png" alt="Captura de la estructura Atomic Design" width="582"> </p> ```
+<p align="center"> <img src="./img/captura-original.png" alt="Captura de la estructura Atomic Design" width="377"> </p> ```
