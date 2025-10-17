@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     container: {
         backgroundColor: colors.primary,
         paddingHorizontal: spacing.lg,
-        paddingBottom: spacing.xl, // Increased from spacing.lg to add more space below the settings row
+        paddingBottom: spacing.xl, 
         flex: 1,
     },
     row: {
